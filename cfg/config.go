@@ -6,4 +6,11 @@
  */
 package cfg
 
+import "github.com/uerax/goconf"
 
+var Config *goconf.CfgFile
+
+func Init() {
+	Config = goconf.NewCfgFile()
+	Config.ReadAll("../etc")
+}
