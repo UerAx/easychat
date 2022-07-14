@@ -9,8 +9,8 @@ package chat
 import (
 	"container/list"
 
-	"github.com/UerAx/easychat/common"
-	"github.com/UerAx/easychat/model"
+	"github.com/uerax/easychat/common"
+	"github.com/uerax/easychat/model"
 )
 
 // 保存历史消息的条数
